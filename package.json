@@ -1,0 +1,28 @@
+{
+  "name": "@zj/promise",
+  "version": "0.1.0",
+  "description": "es6/Promise A+ only implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node_modules/.bin/browserify --no-builtins -e index.js -o npo.js"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "jackzj",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^10.2.3"
+  },
+  "browser":{
+    "./lib/node.js":"./lib/browser.js"
+  },
+  "publishConfig": {
+    "scope": "@zj",
+    "registry": "http://npm.qtang.net/"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.27"
+  }
+}
