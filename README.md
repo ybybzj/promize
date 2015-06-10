@@ -1,1 +1,1 @@
-####Promise shim for both browser and node use
+#### Promise shim can be used in browser and node
