@@ -1,0 +1,1 @@
+####Promise shim for both browser and node use
