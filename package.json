@@ -1,6 +1,6 @@
 {
   "name": "@zj/promise",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "es6/Promise A+ only implementation",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,8 @@
   "devDependencies": {
     "browserify": "^10.2.3"
   },
-  "browser":{
-    "./lib/node.js":"./lib/browser.js"
+  "browser": {
+    "./lib/node.js": "./lib/browser.js"
   },
   "publishConfig": {
     "scope": "@zj",
