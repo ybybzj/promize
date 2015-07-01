@@ -4,12 +4,7 @@
 */
 /*jshint validthis:true */
 "use strict";
-var nativePromise = require('./lib/node');
-if (typeof nativePromise != null) {
-  module.exports = nativePromise;
-} else {
-  module.exports = require('./lib/shim');
-}
+module.exports = require('./lib/node');
 
 // //test
 // if(require.main === module){
