@@ -1,5 +1,5 @@
 {
-  "name": "@zj/promise",
+  "name": "promize",
   "version": "0.2.1",
   "description": "es6/Promise A+ only implementation",
   "main": "index.js",
@@ -17,10 +17,6 @@
   },
   "browser": {
     "./lib/node.js": "./lib/browser.js"
-  },
-  "publishConfig": {
-    "scope": "@zj",
-    "registry": "http://npm.qtang.net/"
   },
   "dependencies": {
     "bluebird": "^2.9.27"
